@@ -1,6 +1,8 @@
 # Math Puzzle Advent Calendar
 A set of 24 college-level puzzles about math, algorithms, computer science and hardware. I made this for my best friend at the end of our studies, but it should be accessible to anyone with a technical background.
 
+![Example](photo_2025-12-24_01-09-41.jpg)
+
 
 # How it works
 - Each puzzle's solution is a number between 1-24
