@@ -7680,7 +7680,7 @@ $$
 \textsf{Input: 1111 1100 (left)} \\
 \textsf{Output: ???? ???? (right)}
 $$
-<img alt="Untitled Diagram.drawio.png" src="NORXONDOR%20GORGONAX/Untitled%20Diagram.drawio.png"/></p>
+<img alt="Diagram.drawio.png" src="NORXONDOR%20GORGONAX/Diagram.drawio.png"/></p>
 <!-- https://en.wikipedia.org/wiki/Logic_gate -->
 </div>
 </div>
@@ -7736,7 +7736,7 @@ $$</p>
 \text{Whole Wheat Flour} &amp; \text{About half of an opened 1kg bag.} \\
 \text{Brown Sugar} &amp; \text{The leftovers you found weigh about 60g.} \\
 \text{Margarine} &amp; \text{After using it previously, you know there are exactly 75g left.} \\
-\text{Chocolate Chips} &amp; \text{When taking the opened pack from the shelf, it rips and chocolate chips scatter all across the floor.} \\
+\text{Chocolate Chips} &amp; \text{When taking the opened pack from the shelf, it rips and chocolate chips scatter all across the floor.} \\ 
 &amp; \text{You manage to pick up most, which total 85g including a little dust and dirt, but you deal with it.} \\
 \text{Vanilla Extract} &amp; \text{A barely used but expired little bottle with 40ml.} \\
 \text{Allspice} &amp; \text{The bag Felix got you with however much you have left.} \\
@@ -7814,8 +7814,9 @@ $$
 2. \textsf { Binarize} \\
 3. \textsf { Apply Dilation} \\
 \textsf{(Repeat to find suitable parameters)}
-$$
-<img alt="XX.png" src="Image%20Processing/XX.png"/></p>
+$$</p>
+<p><img alt="XX.png" src="Image%20Processing/XX.png"/></p>
+<p><a href="Image%20Processing/XX.png">XX.png</a></p>
 </div>
 </div>
 </div>
@@ -7945,8 +7946,8 @@ $$
 $$
 \begin{array}{c|c|c|c|c|c|c}
 \text{} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ \hline
-x &amp; 25 &amp; 33 &amp; 37.5 &amp; 42 &amp; 46.8 &amp; 51 \\
-y &amp; 79.5 &amp; 73.1 &amp; 63.875 &amp; 50.6 &amp; 31.976 &amp; 11.9 \\
+x &amp; 25 &amp; 33 &amp; 37.5 &amp; 42 &amp; 46.8 &amp; 51 \\ 
+y &amp; 79.5 &amp; 73.1 &amp; 63.875 &amp; 50.6 &amp; 31.976 &amp; 11.9 \\ 
 \end{array}
 $$</p>
 </div>
@@ -8023,14 +8024,14 @@ $$
 $$
 $$
 2. \textsf{ Gradient Calculations (Sobel, no padding, mode="same")} \\
-G_x =
+G_x = 
 \begin{bmatrix}
     1 &amp; 0 &amp; -1 \\
     2 &amp; 0 &amp; -2 \\
     1 &amp; 0 &amp; -1
 \end{bmatrix}
 \quad \text{and} \quad
-G_y =
+G_y = 
 \begin{bmatrix}
     1 &amp; 2 &amp; 1 \\
     0 &amp; 0 &amp; 0 \\
@@ -8057,7 +8058,7 @@ $$</p>
 <h1 id="21">21<a class="anchor-link" href="#21">¶</a></h1><p>$$
 \text{Backpropagation}
 $$
-<img alt="photo_2025-12-24_01-23-19.jpg" src="Backpropagation/photo_2025-12-24_01-23-19.jpg"/></p>
+<img alt="Backpropagation.jpg" src="Backpropagation/Backpropagation.jpg"/></p>
 </div>
 </div>
 </div>
@@ -8106,18 +8107,20 @@ The NVIDIA H100 SXM5 GPU (2022) is composed of 8 GPU Processing Clusters (GPCs),
 <li>Int32 cores do 2 operation per cycle</li>
 <li>Tensor cores do 512 FP32-operations per cycle</li>
 </ul>
+<p>Hints:</p>
 <blockquote>
 <p>How many bits can one SM process per cycle across all types of cores?</p>
 </blockquote>
 <blockquote>
 <p>How many bits can the GPU process each second at a frequency of 1980MHz? What percentage is that of the graphics card's 80GB VRAM?</p>
 </blockquote>
+<p>Calculate:</p>
 <blockquote>
 <p>The GPU is busy doing FP32 operations on the tensor cores only.
 If every processed number is written to the GPU cache, how many cycles can the cache sustain without getting half full?</p>
 </blockquote>
-<p><img alt="GPU Die Shot" src="The%20more%20you%20buy%20the%20more%20you%20save/CE96297A-E1E5-49A3-903A-F9CB3AF3AC91.jpeg"/>
-<img alt="Block Diagram" src="The%20more%20you%20buy%20the%20more%20you%20save/Screenshot_20241216_104336.png"/></p>
+<p><img alt="GPU Die Shot" src="The%20more%20you%20buy%20the%20more%20you%20save/GPU%20die%20shot.jpeg"/>
+<img alt="GPU Block Diagram" src="The%20more%20you%20buy%20the%20more%20you%20save/GPU%20block%20diagram.png"/></p>
 <!-- https://www.techpowerup.com/gpu-specs/docs/nvidia-gh100-architecture.pdf -->
 </div>
 </div>
@@ -8131,9 +8134,9 @@ If every processed number is written to the GPU cache, how many cycles can the c
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="24">24<a class="anchor-link" href="#24">¶</a></h1><p>special letter + 3 heart sudokus</p>
 <p>no numerical solution since it's special and the last remaining option</p>
-<p><img alt="First" src="Sudoku/definitely_hand_drawn_background_for_sure.jpg"/></p>
-<p><img alt="Second" src="Sudoku/definitely_hand_drawn_background_for_sure_(again).jpg"/></p>
-<p><img alt="Third" src="Sudoku/photo_2025-12-24_03-35-36_colored.jpg"/></p>
+<p><img alt="Sudoku 1" src="Sudoku/Sudoku_1.jpg"/></p>
+<p><img alt="Sudoku 2" src="Sudoku/Sudoku_2.jpg"/></p>
+<p><img alt="Sudoku 3" src="Sudoku/Sudoku_3.jpg"/></p>
 </div>
 </div>
 </div>

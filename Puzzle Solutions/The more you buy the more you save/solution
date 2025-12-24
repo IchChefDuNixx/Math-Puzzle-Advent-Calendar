@@ -1,0 +1,10 @@
+freq_sxm5_boost = 1980000000
+sm_sxm5 = 132
+tensorcores_per_sm = 4
+ops_per_cycle_tensor = 512
+
+tensor_ops = freq_sxm5_boost/freq_sxm5_boost * sm_sxm5 * tensorcores_per_sm * ops_per_cycle_tensor
+result = (4e8) / tensor_ops*32 / 2
+
+# result
+# >> 23.119377367424242 (round down to 23)
